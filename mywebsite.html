@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huu Thinh</title>
+    <style>
+    #wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #menu {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 1440px;
+        }
+        
+        #left_menu {
+            display: flex;
+            justify-content: space-around;
+            width: 25%;
+            align-items: center;
+        }
+        
+        #right_menu {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 20%;
+        }
+    }
+    #filter {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    #banner {
+        display: flex;
+    }
+    .button {
+        position: absolute;
+        background-color: green;
+        border-radius: 4px;
+        border: none;
+        padding: 10px 15px;
+        font-size: 20px;
+        color: aliceblue;
+    }
+    #footer {
+        width: 100%;
+        height: 30%;
+        background-color: black;
+    }
+    #lineitems {
+        align-items: center;
+    }
+    .choice {
+        width: 400px;
+    }
+    .div_left:hover {
+        width: 150px;
+        float: left;
+        text-align: center;
+        background-color: seagreen;
+    }
+    .div_right:hover {
+        width: 150px;
+        float: left;
+        text-align: center;
+        background-color: seagreen;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- <img src="2_Homepage/logo.png" alt=""> -->
+    <div id="wrapper">
+        <div id="menu">
+            <div id="left_menu">
+                <div>Shop</div>
+                <div>Offer</div>
+                <div>Our story</div>
+                <div>Blog</div>
+            </div>
+            <div id="logo_menu">
+                <img src="2_Homepage/logo.png" alt="logo">
+            </div>
+            <div id="right_menu">
+                <div>
+                    <input type="text" placeholder="tim kiem">
+                </div>
+                <div>
+                    <img src="2_Homepage/cart.png" alt="">
+                </div>
+                <div>
+                    <img src="2_Homepage/Twitter 1.png" alt="Twitter">
+
+                </div>
+                <div>
+                    <img src="2_Homepage/YouTube 1.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div id="banner">
+            <img src="2_Homepage/banner.png" alt="banner">
+            <h1 style="position: absolute;"><b>Gift for your skin</b></h1>
+            <p style="position: absolute;">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Quibusdam atque excepturi perferendis itaque.</p>
+            <input type="button" value="Shop now" class="button">
+        </div>
+        <div id="filter"></div>
+        <div id="lineitem">
+            <h1>Our Products</h1>
+            <div class="choice">
+
+                <div class="div_left">Best-sellers</div>
+
+                <div class="div_right">New products</div>
+
+            </div>
+        </div>
+        <div id="footer" style="text-decoration-color:rebeccapurple;">day la footer</div>
+    </div>
+
+</body>
+
+</html>
